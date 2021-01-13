@@ -105,7 +105,7 @@ int main()
     printf("Masukkan banyak angka yang diinginkan: ");
     scanf("%d", &m);
     printf("Masukkan angka - angka tersebut dari terbesar ke terkecil\n");
-    for (int i = 0;i < n;i++) 
+    for (int i = 0;i < m;i++) 
     {
         scanf("%d", &num);
         push(num, &b);
